@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
-import { FileModule } from './files/file.module';
+import { FileUploadModule } from './file-upload/file-upload.module';
 
 @Module({
-  imports: [FileModule],
+  imports: [FileUploadModule],
 })
 export class AppModule {}
